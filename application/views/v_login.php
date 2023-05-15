@@ -7,7 +7,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <title>NEVERMORE ESPORT</title>
+        <title>BEACH HOMESTAY BATUBIRU</title>
         <style type="text/css">
             * {
     padding:0%;
@@ -197,7 +197,7 @@ button{
     <center>
         <div class="label1">
             <div class="container">
-            <p>Login/Sign Up</p>
+            <p>LOGIN/SIGN UP</p>
             </div>
         </div>
         </center>
@@ -220,7 +220,7 @@ button{
                     </div>
                     <div class="forget">
                         <label for=""><input type="checkbox">Remember Me</label>
-                        <a href="#">Forget Password</a>
+                        <a href="<?php echo base_url() . 'index.php/web/forgotp' ?>">Forget Password</a>
                       
                     </div>
                     <button>Log in</button>

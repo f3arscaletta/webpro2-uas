@@ -123,7 +123,7 @@ header ul li a:hover {
  
     <center>
         <section class="banner">
-            <h2><a href="<?php echo base_url() . 'index.php/web/about' ?>">WELCOME TO NEVERMORE ESPORT</a></h2>
+            <h2><a href="<?php echo base_url() . 'index.php/web/about' ?>">WELCOME TO BEACH HOMESTAY BATUBIRU</a></h2>
         </section> 
     </center>
 

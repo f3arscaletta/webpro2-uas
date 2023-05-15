@@ -132,6 +132,7 @@ header ul li a:hover {
     left: 0;
     opacity: 0;
     transform: rotateY(-180deg);
+    text-align: left;
 }
 .flip:hover .front {
     transform: rotateY(180deg);

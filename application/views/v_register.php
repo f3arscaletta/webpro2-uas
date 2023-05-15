@@ -7,7 +7,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <title>NEVERMORE ESPORT</title>
+        <title>BEACH HOMESTAY BATUBIRU</title>
         <style type="text/css">
             * {
     padding:0%;
@@ -73,9 +73,6 @@ section{
     min-height: 80vh;
     width: 100%;
     
-    background: url('background6.jpg')no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 .form-box{
     position: relative;
@@ -201,7 +198,7 @@ button{
     <center>
         <div class="label1">
             <div class="container">
-            <p>Login/Sign Up</p>
+            <p>LOGIN/SIGN UP</p>
             </div>
         </div>
         </center>
@@ -233,7 +230,7 @@ button{
                         <label for="">Confirm Password</label>
                     </div>
                     <div class="forget">
-                        <label for=""><input type="checkbox">I have read and agree to the <a>Terms and Conditions</a></label>
+                        <label for=""><input type="checkbox">I have read and agree to the <a href="<?php echo base_url() . 'index.php/web/terms' ?>">Terms and Conditions</a></label>
                       
                     </div>
                     <button>Register</button>

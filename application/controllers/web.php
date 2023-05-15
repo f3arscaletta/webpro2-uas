@@ -49,4 +49,14 @@ class Web extends CI_Controller
         $data['judul'] = "";
         $this->load->view('v_register', $data);
     }
+    public function terms()
+    {
+        $data['judul'] = "";
+        $this->load->view('v_termandconditions', $data);
+    }
+    public function forgotp()
+    {
+        $data['judul'] = "";
+        $this->load->view('v_forgotpassword', $data);
+    }
 }
